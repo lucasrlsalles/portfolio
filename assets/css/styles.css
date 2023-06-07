@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+background-image: url(../img/endless-constellation.svg);
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introducing {
+    font-size: 16px;
+    color: rgb(206, 253, 199);
+}
+
+.title {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    line-height: 80%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.devicon-linkedin-plain, .devicon-github-original {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin: 0 10px;
+}
+
